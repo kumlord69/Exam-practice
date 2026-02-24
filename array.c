@@ -7,10 +7,11 @@ int main(){
     for ( i = 0; i < n; i++)
     {
         printf("Enter some numbers: ");
-        scanf("
-            
-            ")
+        scanf("%d",&arr[i]); 
     }
-    
+    printf("The numbers you entered are: ");
+    for ( i = 0; i < n; i++)
+    {
+        printf("%d ",arr[i]);
     }
-
+}

@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-float a,p = 0 ,i=0,num;
+float a, p = 0 ,i=0,num;
+ 
 printf("Enter the number of Students: ");
 scanf("%f",&num);
 while (i<num)
@@ -9,8 +10,11 @@ while (i<num)
     scanf("%f",&a);
     if(a == 1 ){
     p += 1;   }
-    else
+    else if(a == 0){
     p += 0;
+    }
+    else{
+    printf("Only enter valid numebres");}
     i++;
 }
 float percent;
